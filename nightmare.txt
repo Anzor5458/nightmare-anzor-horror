@@ -1,0 +1,51 @@
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'nightmare mod',true,2)
+wait(1)
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Credits to Anzor for nightmare mode Doors',true,1)
+-- Custom Door Sounds
+loadstring(game:HttpGet("https://pastebin.com/raw/iAhTGdBh"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
+ 
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+
+
+ -- Glare
+coroutine.wrap(function()
+    while true do
+        wait(math.random(105,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+workspace.Mimic.MatchMimic1:Destroy()
+workspace.Mimic.roast:Destroy()
+wait(0.35)
+if workspace:FindFirstChild("Matcher") == nil and workspace:FindFirstChild("RushMoving") == nil and workspace:FindFirstChild("Bound") == nil and workspace:FindFirstChild("AmbushMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anzor5458/Scppp/main/Glare"))()
+end
+    end
+end)()
+
+-- Abyss
+coroutine.wrap(function()
+    while true do
+        wait(math.random(105,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+workspace.Mimic.MatchMimic1:Destroy()
+workspace.Mimic.roast:Destroy()
+wait(0.35)
+if workspace:FindFirstChild("Matcher") == nil and workspace:FindFirstChild("RushMoving") == nil and workspace:FindFirstChild("Bound") == nil and workspace:FindFirstChild("AmbushMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anzor5458/Scppp/main/Abyss"))()
+end
+    end
+end)()
+
+-- Blcok
+coroutine.wrap(function()
+    while true do
+        wait(math.random(105,250))
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+workspace.Mimic.MatchMimic1:Destroy()
+workspace.Mimic.roast:Destroy()
+wait(0.35)
+if workspace:FindFirstChild("Matcher") == nil and workspace:FindFirstChild("RushMoving") == nil and workspace:FindFirstChild("Bound") == nil and workspace:FindFirstChild("AmbushMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anzor5458/Scppp/main/Block"))()
+end
+    end
+end)()
